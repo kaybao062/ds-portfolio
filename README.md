@@ -20,13 +20,14 @@ We leveraged **Agent-to-agent** framework to create a Multi-Agent tool with an O
 #### AI Scraper for Global Calendar of Statistical Events
 *March 2025 - Present*
 My role: Student Developer
+Client: United Nations Statistics Division
 
 (diagram)__
 (credit)__
 
 The [Global Calendar of Statistical Events](https://unstats.un.org/capacity-development/calendar/all-events/) is a data hub that highlights the capacity-building events related to statistics and geospatial information. For compiling the event data from 50+ sources the Global Calendar relies on 30+ traditional web scraping bots and some manual data collection. The web scraping bots need to be updated regularly to adjust for changes on the source websites and manual data collection is very time consuming. 
 
-The AI Scraper was developed to deal with unstructured data and varied website layouts. By introducing a technical pipeline including pre-processing, AI extracting events and post-processing, the AI Scraper tremendously reduced the time of scraping and attains 95% accuracy, ensured by human verification. To improve accuracy and lower down hallucination, I used **Chain-of-thought (COT)** to effectively do **prompt-engineering**. 
+The [AI Scraper](https://www.youtube.com/watch?v=IK9c7qVP584&list=PLz85tuGs6Qzh39ppFdMQYWnMNY1TrJpaP) was developed to deal with unstructured data and varied website layouts. By introducing a technical pipeline including pre-processing, AI extracting events and post-processing, the AI Scraper tremendously reduced the time of scraping and attains 95% accuracy, ensured by human verification. To improve accuracy and lower down hallucination, I used **Chain-of-thought (COT)** to effectively do **prompt-engineering**. 
  
 
 #### MatchaPanda: A Job Match AI Assistant
@@ -50,3 +51,29 @@ My role: Student Developer
 In the fast-paced world of air travel, passengers are bombarded with choices—from flight options to amenities and pricing. Comparing airlines and their products is time-consuming! To solve this problem, we create a chatbot that can answer related questions. We leveraged 2 datasets: SkyTrax (check) customer reviews and 13 airlines policy data scraped from official websites. This application streamlines users flightcomparison process for, harnessing the power of LLMs. This application also has a portal to collect user sentiments, which provides a tool for businesses to analyze customer feedback. 
 
 The technical highlight of this product is to create knowledge graph for airline policies. The policy data was first stored and built index for graph creation. The Graph Agent (sure?) will retrieve relationships and nodes via Query Engine based on users query. Airline reviews and ratings were stored in Pinecone database. The agent is tool-based, being able to use query engines to retrieve reviews and policies, create plots of ratings, and summarize the result to users. 
+
+#### Spatial Dashboard Visualizing Livestock Market Concentration
+*Jan 2024 - March 2024*
+My role: Student Data Scientist
+Client: Rural Advancement Foundation International (RAFI)
+
+(diagram)__
+(credit)__
+
+
+###### Poultry Market Capture Dashboard
+Our dashbaord visualized the spatial concentration of poultry farms in United States. Starting from sampling from North Carolina, our team improved an existing **Computer Vision** model that identifies poultry barns from aerial photography. The team excluded barns located in airports, coastal regions, and major city centers, and removed about **10% (around 2000 barns)** of predictions as false positives by implementing **rule-based filtering** and leveraging **Google Earth Engine**. 
+
+###### Livestock Auction House Dashboard
+We built a spatial and time-series dashboard to visualizing market trend of livestock auction house. With a merged dataset of 3400+ auction houses, we explored the revenue, count, geospatial, and flux trends across US from 1991 to 2021. 
+
+
+#### Developing Equity Indicators for Illinois State Government Agency
+*Jan 2024 - March 2024*
+My role: Student Data Scientist
+Client: Rural Advancement Foundation International (RAFI)
+
+(diagram)__
+(credit)__
+
+To achieve equity in accessing Unemployment Insurance (UI) benefits, our team developed an **equity indicator** to serve as a metrics to assess disparities in accessing UI. We leveraged data from a pilot quarter, investigated and combined 4 key datasets. We summarized important data caveats to offer client gain a thorough understanding about the data source they have, and conducted sectoral analysis, including industry, county, company size, union and wage quantile. Our approach helps our client to allocate targeted resources to enhance information support for underrepresented applicants. 
