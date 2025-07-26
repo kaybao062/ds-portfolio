@@ -9,7 +9,7 @@
 *June 2025*
 My role: Data Science Intern at UNSD
 <p align="center">
-  <img src="img/mosaic_diagram.png" alt="Technical Framework of Multiagent and MCP server structure" width="800">
+  <img src="img/mosaic_diagram.png" alt="Technical Framework of Multiagent and MCP server structure" width="600">
 </p>
 
 ![Technical Framework of Multiagent and MCP server structure](img/mosaic_diagram.png)
