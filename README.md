@@ -9,7 +9,7 @@
 *June 2025*
 My role: Data Science Intern at UNSD
 
-(diagram)__
+![Technical Framework of Multiagent and MCP server structure](img/mosaic_diagram.png)
 (credit)__
 
 To enhance internal demand forecasting, our team built an **AI-powered analytics dashboard** that integrates and visualizes key external signals—including weather, news, and social media trends to explain past demand and predict future demand. Our team won the first place of Generative AI Hackathon hosted by United Airline and University of Chicago. 
@@ -56,6 +56,8 @@ The technical highlight of this product is to create knowledge graph for airline
 *Jan 2024 - March 2024*
 My role: Student Data Scientist
 Client: Rural Advancement Foundation International (RAFI)
+[Presentation link](https://www.youtube.com/watch?v=ruTbR7Wl1SQ&t=77s)
+
 
 (diagram)__
 (credit)__
