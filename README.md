@@ -1,19 +1,19 @@
 # Data Projects Portfolio
 
-## My Path Towards a Data Scientist
-(flowchart)
 
 ## AI Product
 
-#### MULTI-ORCHESTRATED SYSTEM FOR AIRLINE INTELLIGENCE & COORDINATION (MOSAIC)
+#### Multi-Orchestrated System for Airline Intelligence & Coordination (MOSAIC)
 *June 2025*
-My role: Data Science Intern at UNSD
+
+Team: Ariel Azria, Linda Ji, Daniel Sa, Ishwar Ramesh, Dev Patel
+
+My role: Developer working on text2sql agent and Static data MCP server
+
 <p align="center">
   <img src="img/mosaic_diagram.png" alt="Technical Framework of Multiagent and MCP server structure" width="600">
 </p>
 
-![Technical Framework of Multiagent and MCP server structure](img/mosaic_diagram.png)
-(credit)__
 
 To enhance internal demand forecasting, our team built an **AI-powered analytics dashboard** that integrates and visualizes key external signals—including weather, news, and social media trends to explain past demand and predict future demand. Our team won the first place of Generative AI Hackathon hosted by United Airline and University of Chicago. 
 
@@ -22,11 +22,17 @@ We leveraged **Agent-to-agent** framework to create a Multi-Agent tool with an O
 
 #### AI Scraper for Global Calendar of Statistical Events
 *March 2025 - Present*
-My role: Student Developer
+
+Supervisor: Alexander Loschky
+
 Client: United Nations Statistics Division
 
-(diagram)__
-(credit)__
+My role: Data Science Intern
+
+<p align="center">
+  <img src="img/scraper_diagram.png" alt="Technical workflow of preprocessing, data extraction and postprocessing" width="600">
+</p>
+
 
 The [Global Calendar of Statistical Events](https://unstats.un.org/capacity-development/calendar/all-events/) is a data hub that highlights the capacity-building events related to statistics and geospatial information. For compiling the event data from 50+ sources the Global Calendar relies on 30+ traditional web scraping bots and some manual data collection. The web scraping bots need to be updated regularly to adjust for changes on the source websites and manual data collection is very time consuming. 
 
@@ -35,21 +41,25 @@ The [AI Scraper](https://www.youtube.com/watch?v=IK9c7qVP584&list=PLz85tuGs6Qzh3
 
 #### MatchaPanda: A Job Match AI Assistant
 *March 2025 - Present*
-My role: Data Scientist
 
-(diagram)__
-(credit)__
+Team: Adam Sannes, Anthony Wu
+
+My role: Data Scientist building RAG framework and Agent
 
 Job search can be tedious for students for 2 reasons: the fragmentation of job listings and bulky text of job descriptions. It is very hard to scale up and speed up the process of identifying jobs that matches one's profile. Our team developed a Job Match Assistant which takes users' resume, analyzes its similarity with a list of job descriptions, and picks the top 3 matches with clarified reason. 
 
-This product combines AI agent and MCP server to achive the perfect match. The agent will request data from MCP server, which is connected to [Adzuna](https://www.adzuna.com/), a database including many job listings (what?) via API. The front end was developed with **React.js** 
+This product combines AI agent and MCP server to achive the perfect match. The agent will request data from MCP server, which is connected to [Adzuna](https://www.adzuna.com/), a global job search engine and aggregator that collects job listings from various sources via API. The front end was developed with **React.js** 
 
 #### Airconnect: Flight Agent Q&A bot 
 *March 2024 - May 2024*
-My role: Student Developer
 
-(diagram)__
-(credit)__
+Team: Natalia Elezovic, Peter Pezon
+
+My role: Student Data Scientist building information dashboard, scraping policy data and building tools for agent. 
+
+<p align="center">
+  <img src="img/airconnect_dashboard.png" alt="Information Dashboard tracking passengers sentiment" width="600">
+</p>
 
 In the fast-paced world of air travel, passengers are bombarded with choices—from flight options to amenities and pricing. Comparing airlines and their products is time-consuming! To solve this problem, we create a chatbot that can answer related questions. We leveraged 2 datasets: SkyTrax (check) customer reviews and 13 airlines policy data scraped from official websites. This application streamlines users flightcomparison process for, harnessing the power of LLMs. This application also has a portal to collect user sentiments, which provides a tool for businesses to analyze customer feedback. 
 
@@ -57,13 +67,18 @@ The technical highlight of this product is to create knowledge graph for airline
 
 #### Spatial Dashboard Visualizing Livestock Market Concentration
 *Jan 2024 - March 2024*
-My role: Student Data Scientist
+
+Team: Colin McLuckie, Stella Chen, Aiwen Xiao
+
+My role: Student Data Scientist working on rule-based filtering
+
 Client: Rural Advancement Foundation International (RAFI)
 [Presentation link](https://www.youtube.com/watch?v=ruTbR7Wl1SQ&t=77s)
 
+<p align="center">
+  <img src="img/rafi_dashboard.png" alt="Spatial Dashboard using Computer Vision to visualize poultry farms density" width="600">
+</p>
 
-(diagram)__
-(credit)__
 
 
 ###### Poultry Market Capture Dashboard
@@ -76,9 +91,6 @@ We built a spatial and time-series dashboard to visualizing market trend of live
 #### Developing Equity Indicators for Illinois State Government Agency
 *Jan 2024 - March 2024*
 My role: Student Data Scientist
-Client: Rural Advancement Foundation International (RAFI)
-
-(diagram)__
-(credit)__
+Client: Illinois State Government Agency
 
 To achieve equity in accessing Unemployment Insurance (UI) benefits, our team developed an **equity indicator** to serve as a metrics to assess disparities in accessing UI. We leveraged data from a pilot quarter, investigated and combined 4 key datasets. We summarized important data caveats to offer client gain a thorough understanding about the data source they have, and conducted sectoral analysis, including industry, county, company size, union and wage quantile. Our approach helps our client to allocate targeted resources to enhance information support for underrepresented applicants. 
